@@ -1,0 +1,19 @@
+{
+  "name": "e2e",
+  "version": "0.0.0",
+  "description": "## テストフロー",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taquaki-satwo/e2e.git"
+  },
+  "author": "Takaaki Sato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taquaki-satwo/e2e/issues"
+  },
+  "homepage": "https://github.com/taquaki-satwo/e2e#readme"
+}
