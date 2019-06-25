@@ -1,17 +1,28 @@
 {
   "name": "e2e",
   "version": "0.0.0",
-  "description": "## テストフロー",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node --experimental-modules ./main.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "minimist": "^1.2.0"
+  },
+  "dependencies": {
+    "puppeteer": "^1.13.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taquaki-satwo/e2e.git"
   },
-  "author": "Takaaki Sato",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/taquaki-satwo/e2e/issues"
   },
